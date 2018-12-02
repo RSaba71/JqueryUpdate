@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta rel="author" href="https://crunchify.com" content="">
+ 
+<script type="text/javascript"
+	src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".flip").click(function() {
+			$(".panel").slideToggle("slow");
+		});
+	});
+</script>
+ 
+<style type="text/css">
+div.panel,p.flip {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+	background: #ddd;
+	border: solid 1px #fff;
+}
+ 
+div.panel {
+	widht: 50%;
+	height: 100px;
+	display: none;
+}
+</style>
+</head>
+ 
+<body>
+ 
+	<div class="panel">
+		<p>This is simple jQuery Show/Hide Example by Crunchify...</p>
+		<p>Click below Show/Hide again to Toggle visibility...</p>
+	</div>
+ 
+	<br>
+	<p class="flip">Click here to Show/Hide Panel</p>
+ 
+	<br>
+	<br>
+	<div align="center">
+		<div   
+			style="font-family: verdana; padding: 10px; border-radius: 10px; border: 3px solid #EE872A; width: 50%; font-size: 12px;">
+ 
+			Simple jQuery Example by by <a href='https://crunchify.com'>Crunchify</a>.
+			Click <a
+				href='https://crunchify.com/category/java-tutorials/'>here</a>
+			for more than 150 examples.<br>
+		</div>
+	</div>
+ 
+</body>
+</html>
